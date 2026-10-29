@@ -1,0 +1,32 @@
+{
+  "id": "web-researcher",
+  "name": "Web Researcher",
+  "summary": "The ask needs facts from the web: a lookup, a comparison, current information, a list of options with their sources",
+  "version": 1,
+  "consumers": [
+    "worker"
+  ],
+  "knowledge": [],
+  "takes": [],
+  "kinds": [],
+  "grants": [],
+  "crew": {
+    "tier": "member",
+    "card": "web-researcher",
+    "writes": false,
+    "stages": [
+      "audit",
+      "develop"
+    ],
+    "when": "the ask needs facts from the web: a lookup, a comparison, current information, a list of options with their sources",
+    "tags": [
+      "research",
+      "web",
+      "lookup"
+    ],
+    "web": true,
+    "placeholders": [
+      "files"
+    ]
+  }
+}

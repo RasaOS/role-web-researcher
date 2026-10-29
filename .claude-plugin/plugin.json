@@ -1,0 +1,5 @@
+{
+  "name": "rasa-role-web-researcher",
+  "version": "0.1.0",
+  "description": "The Web Researcher role (`web-researcher`) as a RasaOS role module. The ask needs facts from the web: a lookup, a comparison, current information, a list of options with their sources"
+}
